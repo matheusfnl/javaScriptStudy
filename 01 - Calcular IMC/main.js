@@ -43,7 +43,7 @@ function calcularImc()
     else
     {
         resultado = document.getElementById("resultado");
-        resultado.innerHTML = "<br/> Resultado: " + imc.toFixed(2) + " (Gordo obeso)";
+        resultado.innerHTML = "<br/> Resultado: " + imc.toFixed(2) + " (Obesidade)";
         document.getElementById("peso").value = "";
         document.getElementById("altura").value = "";        
         return false;
