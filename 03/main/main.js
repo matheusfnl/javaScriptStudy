@@ -21,7 +21,7 @@ function listaNumeros(...numeros)
 
 listaNumeros(1,3,2,4,8,9);
 
-//-----OPERAÇÕES DENTRO DE UM ARRAY
+//-----PRÁTICA
 console.log("\n====OPERAÇÕES DENTRO DE UM ARRAY====");
 function Cadastrar(usuarios, ...novosUsuarios) //rest
 {
