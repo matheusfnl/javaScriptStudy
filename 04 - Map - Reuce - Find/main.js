@@ -5,7 +5,7 @@ const lista = [8,4,1,1,7,6]
 
 const novaLista = lista.map(function(item, index)
 {
-    //primeiro parâmetro = de cada variavel da lista    ex: primeira execução = 8,  segunda execução = 4...
+    //primeiro parâmetro = valor de cada variavel da lista    ex: primeira execução = 8,  segunda execução = 4...
     //segundo parâmetro = posição da variável
     if(item % 2 == 0) return item + index;
     else return item * 2;
