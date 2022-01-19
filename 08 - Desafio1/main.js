@@ -36,7 +36,9 @@ console.log("=======")
 let dia, mes, ano;
 let diaHoje = "20/07/2019"
 
+//criando um array para armazenar cada palavra da string em uma posição
 let separar = [];
+//adicionando ao array as palavras
 separar = diaHoje.split("/");
 
 dia = separar[0];
