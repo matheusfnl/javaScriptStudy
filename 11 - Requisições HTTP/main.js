@@ -10,9 +10,6 @@ function App()
     .then(resposta => resposta.json()) //transformando a resposta em JSON
     .then(json => {
         posts = json;
-
-        console.log(posts)
-
         for(post of posts)
         {
             var elementoTitulo = document.createElement("ul");
